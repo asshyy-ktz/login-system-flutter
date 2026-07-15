@@ -2,14 +2,6 @@
 
 A complete, production-grade **authentication system** for Flutter — email/password, Google & Apple sign-in, phone OTP, biometrics, JWT with silent refresh, auto-login, profile management, and onboarding — built on **Clean Architecture** with **BLoC**.
 
-> **Screenshots:** _(placeholders — add your captures here)_
->
-> | Onboarding | Login | Register | OTP | Profile |
-> | --- | --- | --- | --- | --- |
-> | ![](assets/images/.gitkeep) | | | | |
-
----
-
 ## Architecture
 
 Three layers per feature — **data → domain → presentation** — with dependencies pointing inward. The domain layer knows nothing about Dio, Flutter, or storage.
